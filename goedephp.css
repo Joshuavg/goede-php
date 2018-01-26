@@ -1,0 +1,47 @@
+h1 {
+	position: relative;
+	top: 100px;
+	text-align: center;
+	color: white;
+	font-family: italic;
+	font-size: 80px;
+	text-shadow: 4px 3px black;
+}
+
+h2 {
+	position: relative;
+	top: 250px;
+	text-align: center;
+	color: white;
+	font-family: italic;
+	font-size: 60px;
+	text-shadow: 4px 4px black;
+}
+
+body.morgen {
+
+	background-repeat: no-repeat;
+	background: url(morning.png);
+	background-size: cover;
+}
+
+body.middag {
+
+	background-repeat: no-repeat;
+	background: url(afternoon.png);
+	background-size: cover;
+}
+
+body.avond {
+
+	background-repeat: no-repeat;
+	background: url(evening.png);
+	background-size: cover;
+}
+
+body.nacht {
+
+	background-repeat: no-repeat;
+	background: url(night.png);
+	background-size: cover;
+}
